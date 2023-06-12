@@ -250,16 +250,117 @@ modificada para indicar ênfase. É de grande valor e utilidade para marcar, ter
 ## (Folha de Estilo em Cascata)
 CSS É utilizado para estilizar o código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.
 
+O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.
+
+## Principais aplicações do CSS?
+
+## Criação de animações
+Utilizando as propriedades do CSS é fácil criar uma animação de mudança de cores, também é possível aprimorar essa técnica para resultar em efeitos de animações mais elaboradas.
+
+
+![](https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2022/09/image-3.gif)
+
+
+## Criação de efeitos visuais
+Além das animações, o CSS possui algumas funcionalidades que vão além da animação comum. Não muito comum nos sites de hoje em dia, mas é possível criar efeitos de parallax e gradiente com poucas linhas de código.
+
+![](https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2022/09/image-5.png.webp)
+
+
+## Sites responsivos
+O termo responsivo é conhecido por praticamente todo tipo de pessoa que tem o mínimo de conhecimento com a área de tecnologia. Basta que você utilize qualquer site no seu computador, celular e tablet para visualizar que ele possui essa incrível funcionalidade.
+
+## Landings pages
+Se você já entrou em uma landing page, você já deve saber a sensação de fluidez e conforto ao ver as animações, efeitos visuais e incrível responsividade que esse tipo de site consegue proporcionar.
+
+## Regras e comandos básicos do css
+Dentro do CSS trabalhamos com algumas estruturas básicas, como o seletor, as declarações do seletor que possuem uma propriedade e um valor respectivo.
+
+![](https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2022/09/image-7.png.webp)
+
+Essa estruturação é comumente chamada de conjunto de regras, ou regras, ou algo neste sentido. Aqui vai uma breve explicação de cada nomenclatura:
+
+## Seletor
+
+Como o próprio nome já explica, é o elemento que desejamos adicionar o estilo, no caso podemos utilizar tanto o nome em si do elemento (h1), como também a sua classe ou identificador único.
+
+## Declaração
+
+É a regra de declaração em si, podemos adicionar quantas declarações forem necessárias e consequentemente podemos herdar e sobrescrever declarações.
+
+## Propriedade
+
+Nome do estilo que queremos adicionar ao elemento, no nosso exemplo modificamos o tamanho da fonte com a propriedade font-size.
+
+## Valor de propriedade
+
+Como o nome também já explica, é o valor que atribuímos para a propriedade. Este valor deve respeitar o conjunto de regras das propriedades, não podemos assinalar um valor de cor para uma propriedade que espera um número, por exemplo.
+
+Outro ponto que devemos salientar é o uso correto da sintaxe básica do CSS, ou seja, para declararmos algum estilo para um elemento abrimos e fechamos as chaves ({}), adicionamos dois pontos (:) entre a propriedade e o valor correspondente, e também devemos lembrar de adicionar o ponto e vírgula (;) ao final de cada linha de estilo.
+
+## Adicionando vários estilos para um elemento
+Como já vimos, podemos escrever um código que adiciona vários estilos apenas os separando por ponto e vírgula (;).
+
+## EX:
+
+h1 {
+  
+  font-size: 24px;
+  
+  color: red;
+  
+  height: 100px;
+
+}
+
+## Adicionando o mesmo estilo para vários seletores
+Uma outra regra que é muito utilizada para compartilhar valores de estilos entre os elementos é a separação dos seletores por vírgula na mesma linha antes da abertura das chaves. 
+
+h1, h2, h3 {
+ 
+ color: red;
+  
+  font-weight: bold;
+ 
+ height: 100px;
+
+}
+
+
+## Seletores válidos
+Existem diversos tipos de seletores que são válidos, alguns muito simples e outros muito mais complexos. Contanto, se você souber utilizar estes 5 tipos de seletores, provavelmente não terá muitas preocupações na sua estilização.
+
+
+## Tipo do seletor	                                             Como ele seleciona	                                                              Exemplo:
 
 
 
+Seletor de elemento	                                  Seleciona qualquer elemento do HTML.	                                                         h1
+                                                                                                                                   Seleciona apenas os elementos h1 da página.
 
 
 
+Seletor de classe	                                    Seleciona um ou mais elementos da tela a 
+                                                      partir do valor do atributo classe.	                                                         classe
+                                                                                                                                   Seleciona apenas os elementos que possuem a classe “classe“
 
 
 
+Seletor de ID	                                       Seleciona apenas um elemento que possui o valor do atributo id.	                             #unico
+                                                                                                                                   Seleciona apenas o elemento com o id “unico“
 
+
+
+Seletor de atributo	                                  Seleciona um ou mais elementos que possuem o atributo na tela.	                              input[alt]
+                                                                                                                                   Seleciona apenas os elementos input que possuem o atributo alt.                                                                                                                                                              Algo como <input alt=”teste” />
+
+
+
+Seletor de pseudo-classe	                             Seleciona um ou mais elementos, mas a estilização é feita apenas                               input:focus
+                                                 Por exemplo, apenas quando o elemento estiver focado. no estado especificado.     Seleciona apenas os elementos input e adicionam algum estilo quando houver um foco em um                                                                                                                                    elemento específico.
+                           
+                                                     	
+                                                                                 
 
 
 
